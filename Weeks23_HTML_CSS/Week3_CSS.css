@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: navy;
+
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 1px;
+
+    background-color: lightcoral;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2px;
+
+    padding-left: 1px;
+    padding-right: 3px;
+
+    background-color: goldenrod;
+}
+
+table {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+
+    background-color: lavender;
+}
+
+ul {
+    border-left: 4px;
+
+    background-color: tan;
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 8;
+    
+    text-align: center;
+
+    border: solid red 2px;
+    
+    background-color: wheat;
+}

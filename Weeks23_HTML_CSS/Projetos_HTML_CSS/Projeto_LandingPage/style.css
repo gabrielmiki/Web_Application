@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&family=Uchen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+
+    background: linear-gradient(68.15deg, #3498DB 16.62%, #1ABC9C 85.61%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+.header-image {
+    height: 72px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 32px;
+
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main {
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.main-sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-h1 {
+    font-family: 'Uchen', serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.main-h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.main-buttom {
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px black;
+    border-radius: 20px;
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.main-buttom:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.main-image {
+    height: 180px;
+}
+
+.main-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.main-h3 {
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+
+    font-family: 'Uchen', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.footer {
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+.footer-image {
+    height: 64px;
+    display: block;
+    margin: 0 auto;
+}
