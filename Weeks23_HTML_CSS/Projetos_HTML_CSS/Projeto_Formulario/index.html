@@ -3,7 +3,7 @@
     <head>
         <meta chaset="UTF-8">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
         <title> Formulario </title> 
     </head>
 
@@ -14,25 +14,25 @@
             <p> Complete suas Informações! </p>
         </div>
 
-        <form class = "form">
-            <fieldset>
-                <div>
-                    <label> Nome </label>
-                    <input type = "text" name = "name" id = "name">
+        <form class = "userInfo">
+            <fieldset class = "personalInfo">
+                <div class = "userInfo-nome">
+                    <label for = "name"> Nome </label>
+                    <input type = "text" name = "name" id = "name" required>
                 </div>
 
-                <div>
-                    <label> Sobrenome </label>
-                    <input type = "text" name = "sobrenome" id = "sobrenome">
+                <div class = "userInfo-sobrenome">
+                    <label for = "sobrenome"> Sobrenome </label>
+                    <input type = "text" name = "sobrenome" id = "sobrenome" required>
                 </div>
             </fieldset>
 
-            <div> 
-                <label> E-mail </label>
-                <input type = "email" name = "email" id = "email">
+            <div class = "userInfo-email"> 
+                <label for = "email"> E-mail </label>
+                <input type = "email" name = "email" id = "email" required>
             </div>
 
-            <div>
+            <div class = "userInfo-opcoes">
                 <label> Escolha uma opção: </label>
 
                 <label> 
@@ -43,6 +43,47 @@
                     <input type="radio" name = "opcao2" value = "opcao2"> Opção 2
                 </label>
             </div>
+
+            <div class = "userInfo-graus">
+                <label for = "select"> Grau: </label> 
+                <select id = "select">
+                    <option selected disabled value=""> Select... </option>
+                    <option> Grau 1 </option>
+                    <option> Grau 2 </option>
+                    <option> Grau 3 </option>
+                </select>
+            </div>
+
+            <fieldset class = "userInfo-escolhas">
+                <div>
+                    <label> Mais um escolha: </label> <br><br>
+                    <input type = "checkbox" id = "escolha1" name = "escolha1" value = "HTML">
+                    <label for = "escolhas"> Escolha 1 </label>
+
+                    <input type = "checkbox" id = "escolha2" name = "escolha2" value = "CSS">
+                    <label for = "escolhas"> Escolha 2 </label>
+
+                    <input type = "checkbox" id = "escolha3" name = "escolha3" value = "HTML">
+                    <label for = "escolhas"> Escolha 3 </label>
+
+                    <input type = "checkbox" id = "escolha4" name = "escolha4" value = "HTML">
+                    <label for = "escolhas"> Escolha 4 </label>
+
+                    <input type = "checkbox" id = "escolha5" name = "escolha5" value = "HTML">
+                    <label for = "escolhas"> Escolha 5 </label>
+
+                    <input type = "checkbox" id = "escolha6" name = "escolha6" value = "HTML">
+                    <label for = "escolhas"> Escolha 6 </label>
+                </div>
+            </fieldset>
+
+            <div class = "userInfo-caixaTexto">
+                <br>
+                <label> Caixa de texto: </label>
+                <textarea rows = "6" style = "width: 26em;" id = "textarea" name = "textarea"> </textarea>
+            </div>
+
+            <button class = "userInfo-botao" type = "submit"> Submeter respostas! </button>
         </form>        
     </body>
 </html>
